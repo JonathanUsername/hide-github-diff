@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                min-width: 420px;
+                overflow-x: hidden;
+                font-family: Arial, sans-serif;
+                font-size: 12px;
+            }
+            input, textarea {
+                width: auto;
+            }
+            .tag {
+                color: orange;
+                font-weight: bold;
+            }
+        </style>
+        <script src="popup.js"></script>
+    </head>
+    <body>
+        <p>
+            <label for="selector">
+                Hide file from Github diff if filepath includes:
+            </label>
+            <input type="text" id="selector" name="selector" size="100" value="" />
+        </p>
+    </body>
+</html>
